@@ -1,7 +1,6 @@
 '''
 Jason Ketterer
-FSUID: jrk08j
-COP 4521: HW 3
+
 '''
 
 from sklearn import datasets
