@@ -1,2 +1,3 @@
 # ManVSMachine
-Platforming side-scroller designing AI to complete levels faster than humans!
+Platforming side-scroller 
+Designing AI to complete levels faster than humans!
