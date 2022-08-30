@@ -1,11 +1,12 @@
 # Jason Ketterer
-# FSUID: jrk08j
+#
+# Encrypts a number of messages using RSA Encryption and then decrypts and displays each one
 
 import math
 from random import randint
 
 class RSA():
-    '''RSA encryption/decryption system'''
+    '''RSA Encryption encryption/decryption system'''
 
     def __init__(self):
         self._messages = []
@@ -102,7 +103,7 @@ class RSA():
         """Computes the GCD of a and b and the Bezout coefficients s, t:
             sa + tb = gcd(a,b)
             returns a dict with keys = s, t, gcd
-            Based on the information and algorithms presented in the text:
+            Based on the information and algorithms presented in:
             Discrete Mathematics and Its Applications, 7th ed., Ken Rosen, pp. 267-270"""
         x = a
         y = b
@@ -169,7 +170,7 @@ class RSA():
         return x
 
     def messages(self):
-        '''driver function for the RSA system'''
+        '''driver function for the RSA Encryption system'''
         self.inputFunc()
         self.keyGen()
 
