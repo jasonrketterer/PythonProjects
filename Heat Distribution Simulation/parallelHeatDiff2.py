@@ -1,5 +1,4 @@
 # Jason Ketterer
-# FSUID; jrk08j
 
 import numpy as np
 import matplotlib.pyplot as plt
